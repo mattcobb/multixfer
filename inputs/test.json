@@ -1,0 +1,12 @@
+{  
+   "inputVersion":1.0,
+   "testName":"Download test object", 
+   "repeat":0,
+   "verifyCert": false,
+   "targets":[
+    {
+      "operation": "get",
+      "url": "https://jenkins.cobbsweb.us/job/some_file.jpg"
+    }
+   ]
+}

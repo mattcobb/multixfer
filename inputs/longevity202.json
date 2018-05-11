@@ -1,0 +1,20 @@
+{  
+   "inputVersion":1.0,
+   "testName":"tester longevity rig", 
+   "repeat":0,
+   "verifyCert": false,
+   "targets":[
+    {
+      "operation": "get",
+      "url": "http://192.168.202.202/twentymegfile.bin"
+    },
+    {
+      "operation": "get",
+      "url": "http://192.168.202.202/executable.exe"
+    },
+    {
+      "operation": "get",
+      "url": "http://192.168.202.202/"
+    }
+   ]
+}

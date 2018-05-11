@@ -1,0 +1,18 @@
+{  
+   "inputVersion":1.1,
+   "testName":"Nightly test", 
+   "repeat":200,
+   "verifyCert": false,
+   "pauseFreq":8,
+   "pause":30,
+   "targets":[  
+      {  
+         "url":"https://jenkins.cobbsweb.us/job/A/lastSuccessfulBuild/artifact/OUTPUT/Release/Installer_2.2.0.exe",
+         "operation":"get"
+      },
+      {  
+         "url":"https://jenkins.cobbsweb.us/job/A/lastSuccessfulBuild/artifact/OUTPUT/Release/Installer_2.2.0.exe",
+         "operation":"get"
+      } 	  
+   ]
+}
